@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Šuri - Sua Assistente Inteligente</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #3f3d56;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    main {
+      padding: 2rem;
+      text-align: center;
+    }
+    .btn-download {
+      background-color: #6c63ff;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      margin-top: 1rem;
+      text-decoration: none;
+      display: inline-block;
+    }
+    section {
+      margin-top: 3rem;
+    }
+    footer {
+      background-color: #3f3d56;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+    }
+    .hidden-admin {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Šuri</h1>
+    <p>Sua assistente inteligente. Sempre com você.</p>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#suporte">Suporte</a>
+      <a href="#admin">Admin</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <h2>Baixe agora a versão Beta</h2>
+    <p>Compatível com Android. Requer permissões de voz e microfone.</p>
+    <a href="#" class="btn-download">Baixar APK</a>
+
+    <section>
+      <h3>Funcionalidades:</h3>
+      <ul style="list-style: none; padding: 0;">
+        <li>- Escuta contínua (modo Šuri ativa)</li>
+        <li>- Modos de personalidade por comando de voz</li>
+        <li>- Comandos offline e atalhos personalizados</li>
+        <li>- Envio e leitura de mensagens</li>
+        <li>- Controle do sistema e integração com calendário</li>
+      </ul>
+    </section>
+  </main>
+
+  <main id="suporte">
+    <section>
+      <h2>Suporte</h2>
+      <p>Envie sua dúvida ou reporte um erro:</p>
+      <form>
+        <input type="text" placeholder="Seu nome" required style="padding: 0.5rem; width: 80%; margin-bottom: 0.5rem;"><br>
+        <input type="email" placeholder="Seu e-mail" required style="padding: 0.5rem; width: 80%; margin-bottom: 0.5rem;"><br>
+        <textarea placeholder="Descreva o problema" rows="5" required style="padding: 0.5rem; width: 80%;"></textarea><br>
+        <button type="submit" class="btn-download">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <main id="admin" class="hidden-admin">
+    <section>
+      <h2>Área do Administrador</h2>
+      <p><strong>Acesso restrito.</strong></p>
+      <ul>
+        <li>Total de relatórios recebidos: <em>[em breve]</em></li>
+        <li>Estatísticas de download: <em>[em breve]</em></li>
+        <li>Logs do sistema: <em>[em breve]</em></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Šuri. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
